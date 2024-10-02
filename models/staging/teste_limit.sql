@@ -1,1 +1,0 @@
-select * from workshop.public.WORKSPACE_SUBSCRIPTION
