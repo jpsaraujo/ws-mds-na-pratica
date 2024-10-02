@@ -3,7 +3,7 @@
 with src_subscriptions as
 (
     select *
-    from workshop.mssql_subscriptions
+    from workshop.public.workspace_subscription
 )
 select sb.user_id,
        sb.plan,

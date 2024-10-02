@@ -3,7 +3,7 @@
 with src_payments as
 (
     select *
-    from workshop.mongodb_payments
+    from workshop.public.workspace_payments
 )
 select
     ps.user_id,
