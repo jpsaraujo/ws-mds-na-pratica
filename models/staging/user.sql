@@ -3,7 +3,7 @@
 with src_user as
 (
     select *
-    from workshop.mongodb_user
+    from workshop.public.workspace_user
 )
 select 
     pu.id, 
